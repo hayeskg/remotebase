@@ -113,6 +113,14 @@
   margin-left: 0.5rem;
 }
 
+.body {
+  height: 50vh;
+  max-width: 500px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
